@@ -8,6 +8,10 @@ public class Main {
 		stackQueue.push(30);
 		stackQueue.push(56);
 		stackQueue.print();
+		stackQueue.pop();
+		stackQueue.pop();
+		stackQueue.pop();
+		stackQueue.print();
 	}
 
 }
