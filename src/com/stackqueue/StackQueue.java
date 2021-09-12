@@ -19,6 +19,15 @@ public class StackQueue {
 		newNode.next = head;
 		head = newNode;
 	}
+	
+	public void pop() {
+		if(head == null) {
+			System.out.println("Stack is Empty");
+		} else {
+			System.out.println(head.data + " Deleted");
+			head = head.next;
+		}
+	}
 
 	public void print() {
 		Node temp = head;
