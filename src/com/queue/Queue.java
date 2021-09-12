@@ -27,6 +27,15 @@ public class Queue {
 			temp.next = newNode;
 		}
 	}
+	
+	public void deQueue() {
+		if(head == null) {
+			System.out.println("Queue is Empty");
+		} else {
+			System.out.println(head.data + " Deleted");
+			head = head.next;
+		}
+	}
 
 	public void print() {
 		Node temp = head;
