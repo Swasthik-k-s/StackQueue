@@ -1,6 +1,6 @@
-package com.stackqueue;
+package com.stack;
 
-public class StackQueue {
+public class Stack {
 
 	private Node head;
 
